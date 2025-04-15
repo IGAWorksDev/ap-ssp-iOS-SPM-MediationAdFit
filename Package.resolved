@@ -1,0 +1,24 @@
+{
+  "originHash" : "41a51228abe76438108529df1d4ae2625f05d36738c1dc673d56a71ebc9185e8",
+  "pins" : [
+    {
+      "identity" : "adfit-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adfit/adfit-spm.git",
+      "state" : {
+        "revision" : "2ecb8d10524a80b65b4bc475c94d3484667655d2",
+        "version" : "3.18.6"
+      }
+    },
+    {
+      "identity" : "ap-ssp-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IGAWorksDev/ap-ssp-iOS-SPM.git",
+      "state" : {
+        "revision" : "b7ac35762d9cf2024be50a36409a655927b45613",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

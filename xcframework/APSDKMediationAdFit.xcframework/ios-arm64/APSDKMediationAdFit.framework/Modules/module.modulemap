@@ -1,0 +1,11 @@
+framework module APSDKMediationAdFit {
+  umbrella header "APSDKMediationAdFit.h"
+  export *
+
+  module * { export * }
+}
+
+module APSDKMediationAdFit.Swift {
+  header "APSDKMediationAdFit-Swift.h"
+  requires objc
+}

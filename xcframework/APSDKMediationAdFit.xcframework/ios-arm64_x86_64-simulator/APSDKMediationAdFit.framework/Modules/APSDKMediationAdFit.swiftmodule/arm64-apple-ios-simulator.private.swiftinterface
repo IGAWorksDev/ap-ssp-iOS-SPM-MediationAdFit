@@ -1,0 +1,114 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name APSDKMediationAdFit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import APSDKMediationAdFit
+import AdFitSDK
+import AdPopcornSSPSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+final public class AdFitBannerAdapter : AdPopcornSSPSDK.BannerAdapterProtocol {
+  weak final public var delegate: (any AdPopcornSSPSDK.BannerAdapterDelegate)?
+  weak final public var rootViewController: UIKit.UIViewController?
+  public init(placementDic: [Swift.String : Swift.String], bannerType: AdPopcornSSPSDK.AdPopcornBannerSize, rootViewController: UIKit.UIViewController?, info: [Swift.String : Any?])
+  final public func connectDelegate(delegate: any AdPopcornSSPSDK.BannerAdapterDelegate)
+  final public func disconnectDelegate()
+  final public func stop()
+  @objc deinit
+}
+extension APSDKMediationAdFit.AdFitBannerAdapter : AdPopcornSSPSDK.BannerAdapterDelegate {
+  final public func bannerViewSuccess(bannerView: UIKit.UIView)
+  final public func bannerViewFailed(bannerView: UIKit.UIView, error: AdPopcornSSPSDK.NetworkError)
+  final public func bannerViewClicked(message: Swift.String)
+  final public func bannerViewImpression(message: Swift.String)
+}
+final public class AdFitInterstitialAdapter : AdPopcornSSPSDK.InterstitialAdapterProtocol {
+  final public var rootViewController: UIKit.UIViewController?
+  final public var delegate: (any AdPopcornSSPSDK.InterstitialAdapterDelegate)?
+  public init(placementDic: [Swift.String : Swift.String], rootViewController: UIKit.UIViewController?, info: [Swift.String : Any?])
+  final public func connectDelegate(delegate: any AdPopcornSSPSDK.InterstitialAdapterDelegate)
+  final public func disconnectDelegate()
+  final public func present(from: UIKit.UIViewController, completion: () -> Swift.Void)
+  @objc deinit
+}
+extension APSDKMediationAdFit.AdFitInterstitialAdapter : AdPopcornSSPSDK.InterstitialAdapterDelegate {
+  final public func interstitialLoadSuccess()
+  final public func interstitialLoadFail(error: AdPopcornSSPSDK.NetworkError)
+  final public func interstitialShowSuccess(message: Swift.String)
+  final public func interstitialShowFail(message: Swift.String)
+  final public func interstitialClicked(message: Swift.String)
+  final public func interstitialClosed(message: Swift.String)
+}
+final public class AdFitInterstitialVideoAdapter : AdPopcornSSPSDK.InterstitialVideoAdapterProtocol {
+  final public var delegate: (any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate)?
+  final public var rootViewController: UIKit.UIViewController?
+  public init(placementDic: [Swift.String : Swift.String], rootViewController: UIKit.UIViewController?, info: [Swift.String : Any?])
+  final public func present(from: UIKit.UIViewController, completion: @escaping () -> Swift.Void)
+  final public func connectDelegate(delegate: any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate)
+  final public func disconnectDelegate()
+  @objc deinit
+}
+extension APSDKMediationAdFit.AdFitInterstitialVideoAdapter : AdPopcornSSPSDK.InterstitialVideoAdapterDelegate {
+  final public func interstitialVideoLoadSuccess()
+  final public func interstitialVideoLoadFail(error: AdPopcornSSPSDK.NetworkError)
+  final public func interstitialVideoShowSuccess(message: Swift.String)
+  final public func interstitialVideoShowFail(message: Swift.String)
+  final public func interstitialVideoClicked(message: Swift.String)
+  final public func interstitialVideoClosed(message: Swift.String)
+}
+@_inheritsConvenienceInitializers @objc final public class APSSPAdFitNativeAdRenderable : ObjectiveC.NSObject {
+  @objc final public var adfitNativewAdView: UIKit.UIView?
+  @objc final public var adfitBizBoardTemplate: AdFitSDK.BizBoardTemplate?
+  @objc final public var useBizBoardTemplate: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+final public class AdFitNativeAdapter : AdPopcornSSPSDK.NativeAdapterProtocol {
+  weak final public var delegate: (any AdPopcornSSPSDK.NativeViewAdapterDelegate)?
+  final public var rootViewController: UIKit.UIViewController?
+  final public var render: Swift.AnyObject?
+  public init(placementDic: [Swift.String : Swift.String], rootViewController: UIKit.UIViewController?, render: Swift.AnyObject, info: [Swift.String : Any?])
+  final public func connectDelegate(delegate: any AdPopcornSSPSDK.NativeViewAdapterDelegate)
+  final public func disconnectDelegate()
+  final public func stop()
+  @objc deinit
+}
+extension APSDKMediationAdFit.AdFitNativeAdapter : AdPopcornSSPSDK.NativeViewAdapterDelegate {
+  final public func nativeLoadSuccess()
+  final public func nativeLoadFail(error: AdPopcornSSPSDK.NetworkError)
+  final public func nativeClicked(message: Swift.String)
+  final public func nativeImpression(message: Swift.String)
+}
+extension AdPopcornSSPSDK.AdPopcornNativeAd {
+  @objc @_Concurrency.MainActor @preconcurrency final public func bindAdFitRenderer(renderable: APSDKMediationAdFit.APSSPAdFitNativeAdRenderable)
+  @objc @_Concurrency.MainActor @preconcurrency final public func bindAdFitBizBoardRenderer(renderable: APSDKMediationAdFit.APSSPAdFitNativeAdRenderable)
+}
+final public class AdFitRewardVideoAdapter : AdPopcornSSPSDK.RewardVideoAdapterProtocol {
+  final public var rootViewController: UIKit.UIViewController?
+  final public var delegate: (any AdPopcornSSPSDK.RewardVideoAdapterDelegate)?
+  public init(placementDic: [Swift.String : Swift.String], rootViewController: UIKit.UIViewController?, info: [Swift.String : Any?])
+  final public func connectDelegate(delegate: any AdPopcornSSPSDK.RewardVideoAdapterDelegate)
+  final public func disconnectDelegate()
+  final public func present(from: UIKit.UIViewController, completion: @escaping () -> Swift.Void)
+  @objc deinit
+}
+extension APSDKMediationAdFit.AdFitRewardVideoAdapter : AdPopcornSSPSDK.RewardVideoAdapterDelegate {
+  final public func rewardVideoLoadSuccess()
+  final public func rewardVideoLoadFail(error: AdPopcornSSPSDK.NetworkError)
+  final public func rewardVideoShowSuccess(message: Swift.String)
+  final public func rewardVideoShowFail(message: Swift.String)
+  final public func rewardVideoClicked(message: Swift.String)
+  final public func rewardVideoClosed(message: Swift.String)
+  final public func rewardVideoCompleted()
+}
+extension AdPopcornSSPSDK.AdPopcornSSP {
+  @objc final public func AdFitisSupportBanner() -> Swift.Bool
+  @objc final public func AdFitisSupportNative() -> Swift.Bool
+  @objc final public func AdFitisSupportInterstitial() -> Swift.Bool
+  @objc final public func AdFitisSupportInterstitialVideo() -> Swift.Bool
+  @objc final public func AdFitisSupportRewardVideo() -> Swift.Bool
+}

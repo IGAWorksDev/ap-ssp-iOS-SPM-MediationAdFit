@@ -1,0 +1,4192 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "APSDKMediationAdFit",
+    "printedName": "APSDKMediationAdFit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFitBannerAdapter",
+        "printedName": "AdFitBannerAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AdPopcornSSPSDK.BannerAdapterDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.BannerAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.BannerAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK21BannerAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.BannerAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.BannerAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK21BannerAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC18rootViewControllerSo06UIViewH0CSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementDic:bannerType:rootViewController:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitBannerAdapter",
+                "printedName": "APSDKMediationAdFit.AdFitBannerAdapter",
+                "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdPopcornBannerSize",
+                "printedName": "AdPopcornSSPSDK.AdPopcornBannerSize",
+                "usr": "c:@M@AdPopcornSSPSDK@E@AdPopcornBannerSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC12placementDic10bannerType18rootViewController4infoACSDyS2SG_0B13PopcornSSPSDK0bnD4SizeOSo06UIViewL0CSgSDySSypSgGtcfc",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC12placementDic10bannerType18rootViewController4infoACSDyS2SG_0B13PopcornSSPSDK0bnD4SizeOSo06UIViewL0CSgSDySSypSgGtcfc",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connectDelegate",
+            "printedName": "connectDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdapterDelegate",
+                "printedName": "any AdPopcornSSPSDK.BannerAdapterDelegate",
+                "usr": "s:15AdPopcornSSPSDK21BannerAdapterDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0deG0_p_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0deG0_p_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectDelegate",
+            "printedName": "disconnectDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC18disconnectDelegateyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC18disconnectDelegateyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC4stopyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC4stopyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewSuccess",
+            "printedName": "bannerViewSuccess(bannerView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC17bannerViewSuccess0fG0ySo6UIViewC_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC17bannerViewSuccess0fG0ySo6UIViewC_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewFailed",
+            "printedName": "bannerViewFailed(bannerView:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "AdPopcornSSPSDK.NetworkError",
+                "usr": "c:@M@AdPopcornSSPSDK@E@NetworkError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC16bannerViewFailed0fG05errorySo6UIViewC_0B13PopcornSSPSDK12NetworkErrorOtF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC16bannerViewFailed0fG05errorySo6UIViewC_0B13PopcornSSPSDK12NetworkErrorOtF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewClicked",
+            "printedName": "bannerViewClicked(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC17bannerViewClicked7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC17bannerViewClicked7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewImpression",
+            "printedName": "bannerViewImpression(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC20bannerViewImpression7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC20bannerViewImpression7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APSDKMediationAdFit0bC13BannerAdapterC",
+        "mangledName": "$s19APSDKMediationAdFit0bC13BannerAdapterC",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BannerAdapterProtocol",
+            "printedName": "BannerAdapterProtocol",
+            "usr": "s:15AdPopcornSSPSDK21BannerAdapterProtocolP",
+            "mangledName": "$s15AdPopcornSSPSDK21BannerAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BannerAdapterDelegate",
+            "printedName": "BannerAdapterDelegate",
+            "usr": "s:15AdPopcornSSPSDK21BannerAdapterDelegateP",
+            "mangledName": "$s15AdPopcornSSPSDK21BannerAdapterDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "AdFitSDK",
+        "printedName": "AdFitSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFitInterstitialAdapter",
+        "printedName": "AdFitInterstitialAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC18rootViewControllerSo06UIViewH0CSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdPopcornSSPSDK.InterstitialAdapterDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InterstitialAdapterDelegate",
+                    "printedName": "any AdPopcornSSPSDK.InterstitialAdapterDelegate",
+                    "usr": "s:15AdPopcornSSPSDK27InterstitialAdapterDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.InterstitialAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InterstitialAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.InterstitialAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK27InterstitialAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.InterstitialAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InterstitialAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.InterstitialAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK27InterstitialAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC8delegate0B13PopcornSSPSDK0dE8Delegate_pSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementDic:rootViewController:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitInterstitialAdapter",
+                "printedName": "APSDKMediationAdFit.AdFitInterstitialAdapter",
+                "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC12placementDic18rootViewController4infoACSDyS2SG_So06UIViewJ0CSgSDySSypSgGtcfc",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC12placementDic18rootViewController4infoACSDyS2SG_So06UIViewJ0CSgSDySSypSgGtcfc",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connectDelegate",
+            "printedName": "connectDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InterstitialAdapterDelegate",
+                "printedName": "any AdPopcornSSPSDK.InterstitialAdapterDelegate",
+                "usr": "s:15AdPopcornSSPSDK27InterstitialAdapterDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0deG0_p_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0deG0_p_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectDelegate",
+            "printedName": "disconnectDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC18disconnectDelegateyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC18disconnectDelegateyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC7present4from10completionySo16UIViewControllerC_yyXEtF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC7present4from10completionySo16UIViewControllerC_yyXEtF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialLoadSuccess",
+            "printedName": "interstitialLoadSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC23interstitialLoadSuccessyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC23interstitialLoadSuccessyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialLoadFail",
+            "printedName": "interstitialLoadFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "AdPopcornSSPSDK.NetworkError",
+                "usr": "c:@M@AdPopcornSSPSDK@E@NetworkError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC20interstitialLoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC20interstitialLoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialShowSuccess",
+            "printedName": "interstitialShowSuccess(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC23interstitialShowSuccess7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC23interstitialShowSuccess7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialShowFail",
+            "printedName": "interstitialShowFail(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC20interstitialShowFail7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC20interstitialShowFail7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialClicked",
+            "printedName": "interstitialClicked(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC19interstitialClicked7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC19interstitialClicked7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialClosed",
+            "printedName": "interstitialClosed(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC18interstitialClosed7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC18interstitialClosed7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APSDKMediationAdFit0bC19InterstitialAdapterC",
+        "mangledName": "$s19APSDKMediationAdFit0bC19InterstitialAdapterC",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InterstitialAdapterProtocol",
+            "printedName": "InterstitialAdapterProtocol",
+            "usr": "s:15AdPopcornSSPSDK27InterstitialAdapterProtocolP",
+            "mangledName": "$s15AdPopcornSSPSDK27InterstitialAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InterstitialAdapterDelegate",
+            "printedName": "InterstitialAdapterDelegate",
+            "usr": "s:15AdPopcornSSPSDK27InterstitialAdapterDelegateP",
+            "mangledName": "$s15AdPopcornSSPSDK27InterstitialAdapterDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFitInterstitialVideoAdapter",
+        "printedName": "AdFitInterstitialVideoAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InterstitialVideoAdapterDelegate",
+                    "printedName": "any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate",
+                    "usr": "s:15AdPopcornSSPSDK32InterstitialVideoAdapterDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InterstitialVideoAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK32InterstitialVideoAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InterstitialVideoAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK32InterstitialVideoAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18rootViewControllerSo06UIViewI0CSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementDic:rootViewController:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitInterstitialVideoAdapter",
+                "printedName": "APSDKMediationAdFit.AdFitInterstitialVideoAdapter",
+                "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC12placementDic18rootViewController4infoACSDyS2SG_So06UIViewK0CSgSDySSypSgGtcfc",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC12placementDic18rootViewController4infoACSDyS2SG_So06UIViewK0CSgSDySSypSgGtcfc",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC7present4from10completionySo16UIViewControllerC_yyctF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC7present4from10completionySo16UIViewControllerC_yyctF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectDelegate",
+            "printedName": "connectDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InterstitialVideoAdapterDelegate",
+                "printedName": "any AdPopcornSSPSDK.InterstitialVideoAdapterDelegate",
+                "usr": "s:15AdPopcornSSPSDK32InterstitialVideoAdapterDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0defH0_p_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0defH0_p_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectDelegate",
+            "printedName": "disconnectDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18disconnectDelegateyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC18disconnectDelegateyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialVideoLoadSuccess",
+            "printedName": "interstitialVideoLoadSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE11LoadSuccessyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE11LoadSuccessyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialVideoLoadFail",
+            "printedName": "interstitialVideoLoadFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "AdPopcornSSPSDK.NetworkError",
+                "usr": "c:@M@AdPopcornSSPSDK@E@NetworkError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE8LoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE8LoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialVideoShowSuccess",
+            "printedName": "interstitialVideoShowSuccess(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE11ShowSuccess7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE11ShowSuccess7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialVideoShowFail",
+            "printedName": "interstitialVideoShowFail(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE8ShowFail7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE8ShowFail7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialVideoClicked",
+            "printedName": "interstitialVideoClicked(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE7Clicked7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE7Clicked7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialVideoClosed",
+            "printedName": "interstitialVideoClosed(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE6Closed7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC012interstitialE6Closed7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APSDKMediationAdFit0bC24InterstitialVideoAdapterC",
+        "mangledName": "$s19APSDKMediationAdFit0bC24InterstitialVideoAdapterC",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InterstitialVideoAdapterProtocol",
+            "printedName": "InterstitialVideoAdapterProtocol",
+            "usr": "s:15AdPopcornSSPSDK32InterstitialVideoAdapterProtocolP",
+            "mangledName": "$s15AdPopcornSSPSDK32InterstitialVideoAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InterstitialVideoAdapterDelegate",
+            "printedName": "InterstitialVideoAdapterDelegate",
+            "usr": "s:15AdPopcornSSPSDK32InterstitialVideoAdapterDelegateP",
+            "mangledName": "$s15AdPopcornSSPSDK32InterstitialVideoAdapterDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "AdFitSDK",
+        "printedName": "AdFitSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APSSPAdFitNativeAdRenderable",
+        "printedName": "APSSPAdFitNativeAdRenderable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adfitNativewAdView",
+            "printedName": "adfitNativewAdView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(py)adfitNativewAdView",
+            "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC012adfitNativewB4ViewSo6UIViewCSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)adfitNativewAdView",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC012adfitNativewB4ViewSo6UIViewCSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)setAdfitNativewAdView:",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC012adfitNativewB4ViewSo6UIViewCSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC012adfitNativewB4ViewSo6UIViewCSgvM",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC012adfitNativewB4ViewSo6UIViewCSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adfitBizBoardTemplate",
+            "printedName": "adfitBizBoardTemplate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdFitSDK.BizBoardTemplate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BizBoardTemplate",
+                    "printedName": "AdFitSDK.BizBoardTemplate",
+                    "usr": "c:@M@AdFitSDK@objc(cs)BizBoardTemplate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(py)adfitBizBoardTemplate",
+            "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC21adfitBizBoardTemplate0bC3SDK0hiJ0CSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdFitSDK.BizBoardTemplate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BizBoardTemplate",
+                        "printedName": "AdFitSDK.BizBoardTemplate",
+                        "usr": "c:@M@AdFitSDK@objc(cs)BizBoardTemplate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)adfitBizBoardTemplate",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC21adfitBizBoardTemplate0bC3SDK0hiJ0CSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdFitSDK.BizBoardTemplate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BizBoardTemplate",
+                        "printedName": "AdFitSDK.BizBoardTemplate",
+                        "usr": "c:@M@AdFitSDK@objc(cs)BizBoardTemplate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)setAdfitBizBoardTemplate:",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC21adfitBizBoardTemplate0bC3SDK0hiJ0CSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC21adfitBizBoardTemplate0bC3SDK0hiJ0CSgvM",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC21adfitBizBoardTemplate0bC3SDK0hiJ0CSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useBizBoardTemplate",
+            "printedName": "useBizBoardTemplate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(py)useBizBoardTemplate",
+            "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC19useBizBoardTemplateSbvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)useBizBoardTemplate",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC19useBizBoardTemplateSbvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)setUseBizBoardTemplate:",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC19useBizBoardTemplateSbvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC19useBizBoardTemplateSbvM",
+                "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC19useBizBoardTemplateSbvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APSSPAdFitNativeAdRenderable",
+                "printedName": "APSDKMediationAdFit.APSSPAdFitNativeAdRenderable",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable(im)init",
+            "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableCACycfc",
+            "moduleName": "APSDKMediationAdFit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable",
+        "mangledName": "$s19APSDKMediationAdFit07APSSPAdc6NativeB10RenderableC",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFitNativeAdapter",
+        "printedName": "AdFitNativeAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AdPopcornSSPSDK.NativeViewAdapterDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.NativeViewAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeViewAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.NativeViewAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK25NativeViewAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.NativeViewAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeViewAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.NativeViewAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK25NativeViewAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC8delegate0B13PopcornSSPSDK0d4ViewE8Delegate_pSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC18rootViewControllerSo06UIViewH0CSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "render",
+            "printedName": "render",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnyObject?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnyObject?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC6renderyXlSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementDic:rootViewController:render:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitNativeAdapter",
+                "printedName": "APSDKMediationAdFit.AdFitNativeAdapter",
+                "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC12placementDic18rootViewController6render4infoACSDyS2SG_So06UIViewJ0CSgyXlSDySSypSgGtcfc",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC12placementDic18rootViewController6render4infoACSDyS2SG_So06UIViewJ0CSgyXlSDySSypSgGtcfc",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connectDelegate",
+            "printedName": "connectDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeViewAdapterDelegate",
+                "printedName": "any AdPopcornSSPSDK.NativeViewAdapterDelegate",
+                "usr": "s:15AdPopcornSSPSDK25NativeViewAdapterDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0d4VieweG0_p_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0d4VieweG0_p_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectDelegate",
+            "printedName": "disconnectDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC18disconnectDelegateyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC18disconnectDelegateyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC4stopyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC4stopyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeLoadSuccess",
+            "printedName": "nativeLoadSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC17nativeLoadSuccessyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC17nativeLoadSuccessyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeLoadFail",
+            "printedName": "nativeLoadFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "AdPopcornSSPSDK.NetworkError",
+                "usr": "c:@M@AdPopcornSSPSDK@E@NetworkError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC14nativeLoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC14nativeLoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeClicked",
+            "printedName": "nativeClicked(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC13nativeClicked7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC13nativeClicked7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeImpression",
+            "printedName": "nativeImpression(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC16nativeImpression7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC16nativeImpression7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APSDKMediationAdFit0bC13NativeAdapterC",
+        "mangledName": "$s19APSDKMediationAdFit0bC13NativeAdapterC",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NativeAdapterProtocol",
+            "printedName": "NativeAdapterProtocol",
+            "usr": "s:15AdPopcornSSPSDK21NativeAdapterProtocolP",
+            "mangledName": "$s15AdPopcornSSPSDK21NativeAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NativeViewAdapterDelegate",
+            "printedName": "NativeViewAdapterDelegate",
+            "usr": "s:15AdPopcornSSPSDK25NativeViewAdapterDelegateP",
+            "mangledName": "$s15AdPopcornSSPSDK25NativeViewAdapterDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "AdFitSDK",
+        "printedName": "AdFitSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFitRewardVideoAdapter",
+        "printedName": "AdFitRewardVideoAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC18rootViewControllerSo06UIViewI0CSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AdPopcornSSPSDK.RewardVideoAdapterDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardVideoAdapterDelegate",
+                    "printedName": "any AdPopcornSSPSDK.RewardVideoAdapterDelegate",
+                    "usr": "s:15AdPopcornSSPSDK26RewardVideoAdapterDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvp",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvp",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.RewardVideoAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardVideoAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.RewardVideoAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK26RewardVideoAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvg",
+                "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvg",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdPopcornSSPSDK.RewardVideoAdapterDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardVideoAdapterDelegate",
+                        "printedName": "any AdPopcornSSPSDK.RewardVideoAdapterDelegate",
+                        "usr": "s:15AdPopcornSSPSDK26RewardVideoAdapterDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvs",
+                "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvs",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvM",
+                "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC8delegate0B13PopcornSSPSDK0deF8Delegate_pSgvM",
+                "moduleName": "APSDKMediationAdFit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementDic:rootViewController:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdFitRewardVideoAdapter",
+                "printedName": "APSDKMediationAdFit.AdFitRewardVideoAdapter",
+                "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC12placementDic18rootViewController4infoACSDyS2SG_So06UIViewK0CSgSDySSypSgGtcfc",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC12placementDic18rootViewController4infoACSDyS2SG_So06UIViewK0CSgSDySSypSgGtcfc",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connectDelegate",
+            "printedName": "connectDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardVideoAdapterDelegate",
+                "printedName": "any AdPopcornSSPSDK.RewardVideoAdapterDelegate",
+                "usr": "s:15AdPopcornSSPSDK26RewardVideoAdapterDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0defH0_p_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC15connectDelegate8delegatey0B13PopcornSSPSDK0defH0_p_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectDelegate",
+            "printedName": "disconnectDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC18disconnectDelegateyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC18disconnectDelegateyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC7present4from10completionySo16UIViewControllerC_yyctF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC7present4from10completionySo16UIViewControllerC_yyctF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoLoadSuccess",
+            "printedName": "rewardVideoLoadSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE11LoadSuccessyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE11LoadSuccessyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoLoadFail",
+            "printedName": "rewardVideoLoadFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "AdPopcornSSPSDK.NetworkError",
+                "usr": "c:@M@AdPopcornSSPSDK@E@NetworkError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE8LoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE8LoadFail5errory0B13PopcornSSPSDK12NetworkErrorO_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoShowSuccess",
+            "printedName": "rewardVideoShowSuccess(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE11ShowSuccess7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE11ShowSuccess7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoShowFail",
+            "printedName": "rewardVideoShowFail(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE8ShowFail7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE8ShowFail7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoClicked",
+            "printedName": "rewardVideoClicked(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE7Clicked7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE7Clicked7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoClosed",
+            "printedName": "rewardVideoClosed(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE6Closed7messageySS_tF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE6Closed7messageySS_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardVideoCompleted",
+            "printedName": "rewardVideoCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE9CompletedyyF",
+            "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC06rewardE9CompletedyyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APSDKMediationAdFit0bC18RewardVideoAdapterC",
+        "mangledName": "$s19APSDKMediationAdFit0bC18RewardVideoAdapterC",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RewardVideoAdapterProtocol",
+            "printedName": "RewardVideoAdapterProtocol",
+            "usr": "s:15AdPopcornSSPSDK26RewardVideoAdapterProtocolP",
+            "mangledName": "$s15AdPopcornSSPSDK26RewardVideoAdapterProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RewardVideoAdapterDelegate",
+            "printedName": "RewardVideoAdapterDelegate",
+            "usr": "s:15AdPopcornSSPSDK26RewardVideoAdapterDelegateP",
+            "mangledName": "$s15AdPopcornSSPSDK26RewardVideoAdapterDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSPSDK",
+        "printedName": "AdPopcornSSPSDK",
+        "declKind": "Import",
+        "moduleName": "APSDKMediationAdFit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdPopcornNativeAd",
+        "printedName": "AdPopcornNativeAd",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "bindAdFitRenderer",
+            "printedName": "bindAdFitRenderer(renderable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APSSPAdFitNativeAdRenderable",
+                "printedName": "APSDKMediationAdFit.APSSPAdFitNativeAdRenderable",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornNativeAd(im)bindAdFitRendererWithRenderable:",
+            "mangledName": "$s15AdPopcornSSPSDK0ab6NativeA0C014APSDKMediationA3FitE04bindaF8Renderer10renderableyAD07APSSPAdfdA10RenderableC_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "objc_name": "bindAdFitRendererWithRenderable:",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bindAdFitBizBoardRenderer",
+            "printedName": "bindAdFitBizBoardRenderer(renderable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APSSPAdFitNativeAdRenderable",
+                "printedName": "APSDKMediationAdFit.APSSPAdFitNativeAdRenderable",
+                "usr": "c:@M@APSDKMediationAdFit@objc(cs)APSSPAdFitNativeAdRenderable"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornNativeAd(im)bindAdFitBizBoardRendererWithRenderable:",
+            "mangledName": "$s15AdPopcornSSPSDK0ab6NativeA0C014APSDKMediationA3FitE04bindaF16BizBoardRenderer10renderableyAD07APSSPAdfdA10RenderableC_tF",
+            "moduleName": "APSDKMediationAdFit",
+            "objc_name": "bindAdFitBizBoardRendererWithRenderable:",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdPopcornSSPSDK@objc(cs)AdPopcornNativeAd",
+        "mangledName": "$s15AdPopcornSSPSDK0ab6NativeA0C",
+        "moduleName": "AdPopcornSSPSDK",
+        "declAttributes": [
+          "Final",
+          "Preconcurrency",
+          "ObjC",
+          "Custom"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VFLayoutSizeValueType",
+            "printedName": "VFLayoutSizeValueType",
+            "usr": "s:8AdFitSDK21VFLayoutSizeValueTypeP",
+            "mangledName": "$s8AdFitSDK21VFLayoutSizeValueTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NativeViewAdapterDelegate",
+            "printedName": "NativeViewAdapterDelegate",
+            "usr": "s:15AdPopcornSSPSDK25NativeViewAdapterDelegateP",
+            "mangledName": "$s15AdPopcornSSPSDK25NativeViewAdapterDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdPopcornSSP",
+        "printedName": "AdPopcornSSP",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "AdFitisSupportBanner",
+            "printedName": "AdFitisSupportBanner()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornSSP(im)AdFitisSupportBanner",
+            "mangledName": "$s15AdPopcornSSPSDK0aB3SSPC014APSDKMediationA3FitE0A18FitisSupportBannerSbyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "AdFitisSupportNative",
+            "printedName": "AdFitisSupportNative()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornSSP(im)AdFitisSupportNative",
+            "mangledName": "$s15AdPopcornSSPSDK0aB3SSPC014APSDKMediationA3FitE0A18FitisSupportNativeSbyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "AdFitisSupportInterstitial",
+            "printedName": "AdFitisSupportInterstitial()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornSSP(im)AdFitisSupportInterstitial",
+            "mangledName": "$s15AdPopcornSSPSDK0aB3SSPC014APSDKMediationA3FitE0A24FitisSupportInterstitialSbyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "AdFitisSupportInterstitialVideo",
+            "printedName": "AdFitisSupportInterstitialVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornSSP(im)AdFitisSupportInterstitialVideo",
+            "mangledName": "$s15AdPopcornSSPSDK0aB3SSPC014APSDKMediationA3FitE0A29FitisSupportInterstitialVideoSbyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "AdFitisSupportRewardVideo",
+            "printedName": "AdFitisSupportRewardVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@APSDKMediationAdFit@AdPopcornSSPSDK@objc(cs)AdPopcornSSP(im)AdFitisSupportRewardVideo",
+            "mangledName": "$s15AdPopcornSSPSDK0aB3SSPC014APSDKMediationA3FitE0A23FitisSupportRewardVideoSbyF",
+            "moduleName": "APSDKMediationAdFit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdPopcornSSPSDK@objc(cs)AdPopcornSSP",
+        "mangledName": "$s15AdPopcornSSPSDK0aB3SSPC",
+        "moduleName": "AdPopcornSSPSDK",
+        "declAttributes": [
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/odin.songhwangho\/Documents\/ap-ssp-SDK-iOS-Swift-\/APSSPSDK\/AdPopcornSSP_SPM\/Mediation\/APSDKMediationAdFit\/APSDKMediationAdFit\/Native\/AdFitMediationNativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 385,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
